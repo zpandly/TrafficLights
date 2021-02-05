@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T14:21:42.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="35khzllHvujJGeZk94ZS" version="14.2.9" type="github"><diagram id="aNDrPxS6E9W4wT_-Y0W0" name="Page-1">zVVNj5swEP01c1yJjwTMEYJ3W/Vjo9AqZze4QGUwckwI/fW1wYSwZKPuYaW9oPHzG8bzngfA3ZTnJ0Hq/BtPKQPHSs/gxuA4yEPqqYFuAFbIGYBMFOkA2ROQFH+pAS2DNkVKjzOi5JzJop6DB15V9CBnGBGCt3Pab87mVWuS0QWQHAhbovsilblpy/En/BMtsnysbHvBsFOSkWw6OeYk5e0V5GJwN4JzOUTleUOZ1m7UZch7fGX3cjBBK/k/CWHjxeiz7YbYkl7Rbsov7sPDanjLibDGNGwOK7tRAZoqQcySC5nzjFeE4QmNBG+qlOoyllpNnK+c1wq0FfiHStkZd0kjuYJyWTKzO9TUhV7tzUBH3ogDvdPQeEeIyKi8w3MuDqibS3lJpehUnqCMyOI0Pwcxdyi78CaZVWCUfoPq9kL17fMe7zY/f4DjMXXs6JdQUaajp+0uAexBiCC0Aa8hiCHwNRIoMAbsQ7CCaL3M1ORwBUhxFCHugzWgRwgQ4ACQr+OXbs+9bPNC0qQmveStGvBbvp2okPR837ml0ibBRWY8unHuzbqdps0eRyi/mjTPeidznNvmPH+/rXAUQeT1dvgqsJPeIgsQvmWa8gEBCu+Ytt3vdCKKAAWjb9jRCaHKcWZvN6QAwkh7+tGsvHzD38FKtZy+nP3e1e/Hxf8A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-05T14:26:12.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="F4AoeOcMraErlbi0Mbxy" version="14.2.9" type="github">
+  <diagram id="aNDrPxS6E9W4wT_-Y0W0" name="Page-1">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Au6D8I13AE0t6iwCmK3--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Au6D8I13AE0t6iwCmK3--1" target="Au6D8I13AE0t6iwCmK3--2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Au6D8I13AE0t6iwCmK3--1" value="POWERCUT&lt;br&gt;GPRS模块断电&lt;br&gt;复位变量" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9-6ndx54c91wsxVTwOa-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Au6D8I13AE0t6iwCmK3--2" target="E9-6ndx54c91wsxVTwOa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Au6D8I13AE0t6iwCmK3--2" value="POWERON&lt;br&gt;延时1S后模块上电&lt;br&gt;PWR拉低2秒后拉高" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9-6ndx54c91wsxVTwOa-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E9-6ndx54c91wsxVTwOa-1" target="E9-6ndx54c91wsxVTwOa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E9-6ndx54c91wsxVTwOa-1" value="BOOT&lt;br&gt;启动，等待6秒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9-6ndx54c91wsxVTwOa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E9-6ndx54c91wsxVTwOa-5" target="E9-6ndx54c91wsxVTwOa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E9-6ndx54c91wsxVTwOa-5" value="ACTIVE&lt;br&gt;发送AT指令&lt;br&gt;接收OK确认开机" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9-6ndx54c91wsxVTwOa-7" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
